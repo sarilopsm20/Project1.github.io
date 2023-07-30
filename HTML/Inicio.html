@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de JavaScript</title>
-    <script src="/HTML/js/inde.js"></script>
 </head>
 <body>
-    
+    <script>
+        //Create a program to get FizzBuzz when the position is 
+
+var list = new Array ()
+
+for (var i = 0; i <= 10; i++){
+    if (i%3 == 0 && i%5==0){
+        list.push("FizzBuzz")
+    } else if (i%3==0){
+        list.push("Fizz")
+    } else if (i%5==0){
+        list.push("Buzz")
+    }else{
+        list.push(i)
+    }
+}
+document.write(list)
+    </script>
 </body>
 </html>
