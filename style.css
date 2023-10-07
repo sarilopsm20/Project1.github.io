@@ -51,3 +51,9 @@ nav ul li a:hover{
     background: #1b9bff;
     transition: .5s;
 }
+
+header{
+    background: url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
