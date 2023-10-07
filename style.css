@@ -8,20 +8,16 @@
 }
 
 .logo img{
-    height: 70px;
+    height: 20px;
     width: auto;
 }
 
 header{
-    background: #0082e6;
-    display: inline-block;
+    background: #e4cbef;
+    display: grid;
+    grid-template-columns: auto auto;
     height: 80px;
     width: 100%;
-}
-
-nav .logo{
-    float: left;
-    padding: 20px;
 }
 
 nav ul{
@@ -36,7 +32,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
+    color: #ff1bce;
     text-decoration: none;
     font-size: 17px;
     padding: 7px 13px;
@@ -46,6 +42,7 @@ nav ul li a{
 
 nav ul li a.active,
 nav ul li a:hover{
-    background: #1b9bff;
+    background: #ff1bce;
     transition: .5s;
+    color: #fff;
 }
