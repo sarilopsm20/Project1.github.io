@@ -14,6 +14,7 @@ logo{
 
 header{
     background: #0082e6;
+    display: inline-block;
     height: 80px;
     width: 100%;
 }
