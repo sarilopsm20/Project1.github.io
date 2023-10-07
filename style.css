@@ -8,14 +8,11 @@
 }
 
 logo{
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 50px;
     color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
-nav{
+header{
     background: #0082e6;
     height: 80px;
     width: 100%;
@@ -50,10 +47,4 @@ nav ul li a.active,
 nav ul li a:hover{
     background: #1b9bff;
     transition: .5s;
-}
-
-header{
-    background: url(../img/banner.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
 }
