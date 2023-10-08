@@ -106,12 +106,16 @@ aside{
 
 .servicio:hover{
     background-color: #7F3191;
+    transition: .4s;
+    zoom: 1;
+    border-radius: 10px;
+    border: 1px solid #e4cbef;
+}
+
+.servicio:hover > h3, .servicio:hover > p{
     color: #fff;
     transition: .4s;
     zoom: 1;
-    color: #e4cbef;
-    border-radius: 10px;
-    border: 1px solid #e4cbef;
 }
 
 footer{
