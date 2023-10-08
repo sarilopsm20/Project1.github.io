@@ -17,14 +17,13 @@ header{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: auto auto auto;
-    height: 80px;
     width: 100%;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: auto 5px;
     text-align: right;
 }
 
