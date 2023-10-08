@@ -80,3 +80,8 @@ aside{
     margin: 0 auto;
     text-align: center;
 }
+
+.servicio > img{
+    height: 100px;
+    width: auto;
+}
