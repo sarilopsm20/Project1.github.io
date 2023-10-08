@@ -54,7 +54,7 @@ main{
     align-items: center;
     margin: 0 auto;
 }
-.iconos > img{
+a > img{
     height: 50px;
     width: auto;
     margin: 0 10px;
