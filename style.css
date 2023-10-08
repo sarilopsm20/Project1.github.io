@@ -52,6 +52,10 @@ main{
 .iconos{
     display: inline-block;
     align-items: center;
-    width: 50px;
     margin: 0 auto;
+}
+.iconos > img{
+    height: 50px;
+    width: auto;
+    margin: 0 10px;
 }
