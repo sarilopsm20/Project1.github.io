@@ -52,7 +52,7 @@ main{
 .iconos{
     display: inline-block;
     align-items: center;
-    margin: 0 auto;
+    margin: auto auto auto auto;
 }
 
 .icono{
