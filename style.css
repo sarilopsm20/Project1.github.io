@@ -79,6 +79,9 @@ aside{
     display: block;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #7F3191;
 }
 
 .servicio > img{
@@ -104,6 +107,10 @@ aside{
     background-color: #7F3191;
     color: #fff;
     transition: .4s;
+    zoom: 1;
+    color: #e4cbef;
+    border-radius: 10px;
+    border: 1px solid #e4cbef;
 }
 
 footer{
