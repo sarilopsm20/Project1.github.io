@@ -50,8 +50,7 @@ main{
 }
 
 .iconos{
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
     align-items: center;
     width: 20%;
     margin: 0 auto;
