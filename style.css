@@ -39,9 +39,9 @@ nav ul li a{
 
 nav ul li a.active,
 nav ul li a:hover{
-    background: #7F3191;
-    transition: .4s;
-    color: #fff;
+    border-bottom: #7F3191;
+    zoom: 2;
+    color: #7F3191;
 }
 
 main{
@@ -107,7 +107,7 @@ aside{
     background-color: #7F3191;
     color: #fff;
     transition: .4s;
-    zoom: 1;
+    zoom: 2;
     color: #e4cbef;
     border-radius: 10px;
     border: 1px solid #e4cbef;
