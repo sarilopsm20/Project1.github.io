@@ -40,8 +40,9 @@ nav ul li a{
 nav ul li a.active,
 nav ul li a:hover{
     border-bottom: #7F3191;
-    zoom: 1;
+    zoom: 1.5;
     color: #7F3191;
+    text-shadow: 1px 1px 1px #7F3191;
 }
 
 main{
@@ -106,7 +107,7 @@ aside{
 .servicio:hover{
     background-color: #7F3191;
     transition: .4s;
-    zoom: 1;
+    zoom: 1.5;
     border-radius: 10px;
     border: 1px solid #e4cbef;
 }
